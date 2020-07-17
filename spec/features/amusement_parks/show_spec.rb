@@ -12,12 +12,11 @@ RSpec.describe "Amusement Park show page" do
 
   it "shows the name of each ride in the park in alphabetical order" do
     hershey = AmusementPark.create(name: "Hershey Park", admission_price: 50.00)
-    ride1 = Ride.create(name: "Lightning Racer", thrill_rating: 6)
-    ride2 = Ride.create(name: "Storm Runner", thrill_rating: 8)
-    ride3 = Ride.create(name: "The Great Bear", thrill_rating: 3)
+    ride1 = hershey.rides.create(name: "Lightning Racer", thrill_rating: 6)
+    ride2 = hershey.rides.create(name: "Storm Runner", thrill_rating: 8)
+    ride3 = hershey.rides.create(name: "The Great Bear", thrill_rating: 3)
 
     visit "/amusement_parks/#{hershey.id}"
-
 
     within '.rides' do
       expect(page.all('li')[0]).to have_content(ride1.name)

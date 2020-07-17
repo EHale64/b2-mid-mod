@@ -253,7 +253,7 @@
       "/Users/erichale/turing/2module/independent_challenges/b2-mid-mod/app/models/amusement_park.rb": {
         "lines": [
           1,
-          null,
+          1,
           null
         ]
       },
@@ -327,6 +327,6 @@
         ]
       }
     },
-    "timestamp": 1595004154
+    "timestamp": 1595005289
   }
 }
