@@ -218,80 +218,18 @@
           null
         ]
       },
-      "/Users/erichale/turing/2module/independent_challenges/b2-mid-mod/spec/features/mechanics/index_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/erichale/turing/2module/independent_challenges/b2-mid-mod/spec/models/amusement_park_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          1,
-          2,
-          null,
-          null
-        ]
-      },
       "/Users/erichale/turing/2module/independent_challenges/b2-mid-mod/app/models/amusement_park.rb": {
         "lines": [
           1,
           1,
+          null,
+          1,
+          0,
+          null,
           null
         ]
       },
       "/Users/erichale/turing/2module/independent_challenges/b2-mid-mod/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/erichale/turing/2module/independent_challenges/b2-mid-mod/spec/models/mechanic_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/erichale/turing/2module/independent_challenges/b2-mid-mod/app/models/mechanic.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/erichale/turing/2module/independent_challenges/b2-mid-mod/spec/models/ride_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          1,
-          2,
-          null,
-          null
-        ]
-      },
-      "/Users/erichale/turing/2module/independent_challenges/b2-mid-mod/app/models/ride.rb": {
         "lines": [
           1,
           1,
@@ -304,6 +242,7 @@
           null,
           1,
           2,
+          2,
           null,
           null
         ]
@@ -315,18 +254,14 @@
           null
         ]
       },
-      "/Users/erichale/turing/2module/independent_challenges/b2-mid-mod/app/controllers/mechanics_controller.rb": {
+      "/Users/erichale/turing/2module/independent_challenges/b2-mid-mod/app/models/ride.rb": {
         "lines": [
           1,
-          null,
           1,
-          1,
-          null,
-          null,
           null
         ]
       }
     },
-    "timestamp": 1595005289
+    "timestamp": 1595006533
   }
 }

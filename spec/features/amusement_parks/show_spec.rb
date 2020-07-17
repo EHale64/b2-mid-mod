@@ -15,13 +15,19 @@ RSpec.describe "Amusement Park show page" do
     ride1 = hershey.rides.create(name: "Lightning Racer", thrill_rating: 6)
     ride2 = hershey.rides.create(name: "Storm Runner", thrill_rating: 8)
     ride3 = hershey.rides.create(name: "The Great Bear", thrill_rating: 3)
+    ride4 = hershey.rides.create(name: "Alpine Dash", thrill_rating: 4)
 
     visit "/amusement_parks/#{hershey.id}"
 
     within '.rides' do
-      expect(page.all('li')[0]).to have_content(ride1.name)
-      expect(page.all('li')[1]).to have_content(ride2.name)
-      expect(page.all('li')[2]).to have_content(ride3.name)
+      expect(page.all('li')[0]).to have_content(ride4.name)
+      expect(page.all('li')[1]).to have_content(ride1.name)
+      expect(page.all('li')[2]).to have_content(ride2.name)
+      expect(page.all('li')[3]).to have_content(ride3.name)
     end
+  end
+
+  it "shows the average thrill rating of all rides" do
+
   end
 end
